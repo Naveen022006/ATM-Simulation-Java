@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 class ATM {
 
-    private int[] userIds = {101, 102, 103};
-    private int[] pins = {1111, 2222, 3333};
-    private double[] balances = {5000, 10000, 7500};
+    private int[] userIds = {101, 102, 103, 104, 105, 106, 107, 108, 109, 110 , 2102};
+    private int[] pins = {1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 0000 , 1212};
+    private double[] balances = {5000, 10000, 7500, 12000, 3000, 15000, 2000, 8000, 6000, 4000, 25000};
 
     private int currentUserIndex = -1;
 
